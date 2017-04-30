@@ -8,13 +8,10 @@
 	int ch, ch2;
 	char string [100], *begin, *end, temp, tgt[MAX];
 
-	/* get the output filename from the user */
+	
         printf("Enter your output file name:");
         scanf("%s", tgt);
 
-
-	
-	 /* open the source file in read mode */	
 	f1 = fopen("TextInput", "rt");
 
 	if(f1==NULL)
